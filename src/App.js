@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import "tw-elements";
+import 'flowbite';
 import { CarouselProvider, Slider, Slide } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
 function App() {
@@ -51,7 +52,7 @@ function App() {
             </div>
             <div
               className="hidden w-full md:block md:w-auto"
-              id="navbar-default"
+              id="navbar-default1"
             >
               <ul className="flex flex-col p-4 mt-4  rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-">
                 <li className="cursor-pointer">FRA</li>
