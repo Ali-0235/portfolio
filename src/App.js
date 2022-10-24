@@ -20,7 +20,7 @@ function App() {
               aria-controls="navbar-default"
               aria-expanded="false"
             >
-              <span className="sr-only">Open main menu</span>
+              <span className="sr-only"></span>
               <svg
                 className="w-6 h-6"
                 aria-hidden="true"
@@ -84,33 +84,33 @@ function App() {
                 director located in united states, looking for working around
                 the globe
               </p>
-              <div className="bg-[#3E4356] text-white px-6 py-2 text-[12px] cursor-pointer lg:mt-16 mt-4">
-                <span className="blur-[0.5px] ">DOWNLOAD CV</span>
+              <div className="bg-[#3E4356] text-white px-6 py-2 text-[12px] cursor-pointer lg:mt-16 mt-4 hover:bg-[#ff0000] hover:ease-linear hover:duration-100">
+                <span className="">DOWNLOAD CV</span>
               </div>
               <span className="flex pt-5 ">
                 <img
                   src="/instagram.svg"
-                  className="mr-2 pb-6 blur-[0.5px]"
+                  className="mr-2 pb-6 blur-[0.5px] cursor-pointer"
                   alt="icon"
                 />
                 <img
                   src="/world.svg"
-                  className="mx-2  pb-6 blur-[0.5px]"
+                  className="mx-2  pb-6 blur-[0.5px] cursor-pointer"
                   alt="icon"
                 />
                 <img
                   src="/tumblr.svg"
-                  className="mx-2 pb-6 blur-[0.5px]"
+                  className="mx-2 pb-6 blur-[0.5px] cursor-pointer"
                   alt="icon"
                 />
                 <img
                   src="/twitter.svg"
-                  className="mx-2 pb-6 blur-[0.5px]"
+                  className="mx-2 pb-6 blur-[0.5px] cursor-pointer"
                   alt="icon"
                 />
                 <img
                   src="/vimeo.svg"
-                  className="mx-2 pb-6 blur-[0.5px]"
+                  className="mx-2 pb-6 blur-[0.5px] cursor-pointer"
                   alt="icon"
                 />
               </span>
@@ -159,11 +159,11 @@ function App() {
               <img src="/sign.png" className="h-[50px]" alt="" />
             </div>
             <div className="flex mt-2">
-              <div className="bg-[#3E4356] text-white px-7 py-4 text-[12px] cursor-pointer w-fit">
+              <div className="bg-[#3E4356] text-white px-7 py-4 text-[12px] cursor-pointer w-fit hover:bg-[#ff0000] hover:ease-linear hover:duration-100">
                 <span className="">HIRE ME</span>
               </div>
               &nbsp;
-              <div className="bg-[#3E4356] text-white px-6 text-[12px] cursor-pointer w-fit">
+              <div className="bg-[#3E4356] text-white px-6 text-[12px] cursor-pointer w-fit hover:bg-[#ff0000] hover:ease-linear hover:duration-100">
                 <span>
                   <img src="/rightlong.png" alt="" />
                 </span>
@@ -711,7 +711,7 @@ function App() {
           Just say hello !
         </p>
         <div className="w-full flex items-center justify-center pb-12">
-          <div className="bg-[#3E4356] text-white px-7 py-4 text-[12px] cursor-pointer w-fit">
+          <div className="bg-[#3E4356] text-white px-7 py-4 text-[12px] cursor-pointer w-fit hover:animate-pulse hover:bg-[#ff0000]">
             <span className="">HIRE ME</span>
           </div>
         </div>
@@ -865,7 +865,7 @@ function App() {
               />
             </div>
             <div className="w-full flex items-center justify-end pb-12 pt-12 bg-white">
-              <div className="bg-[#3E4356] text-white px-7 py-4 text-[12px] cursor-pointer w-fit">
+              <div className="bg-[#3E4356] text-white px-7 py-4 text-[12px] cursor-pointer w-fit hover:bg-[#ff0000] hover:ease-linear hover:duration-100">
                 <span className="">HIRE ME</span>
               </div>
             </div>
