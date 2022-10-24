@@ -52,13 +52,9 @@ function App() {
             </div>
             <div
               className="hidden w-full md:block md:w-auto"
-              id="navbar-default1"
+              id=""
             >
-              <ul className="flex flex-col p-4 mt-4  rounded-lg  border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-">
-                <li className="cursor-pointer">FRA</li>
-                <li className="cursor-pointer">FER</li>
-                <li className="cursor-pointer">ENG</li>
-              </ul>
+             
             </div>
           </div>
         </nav>
