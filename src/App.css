@@ -70,3 +70,6 @@
 .carousel__slider{
   height: 150px !important;
 }
+.img1:hover .imgHover{
+  display: block;
+}

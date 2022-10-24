@@ -40,7 +40,7 @@ function App() {
               className="hidden w-full md:block md:w-auto"
               id="navbar-default"
             >
-              <ul className="flex flex-col p-4 mt-4  rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-">
+              <ul className="flex flex-col p-4 mt-4  rounded-lg  border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-">
                 <li className="cursor-pointer">HOME</li>
                 <li className="cursor-pointer">ABOUT</li>
                 <li className="cursor-pointer">PORTFOLIO</li>
@@ -54,7 +54,7 @@ function App() {
               className="hidden w-full md:block md:w-auto"
               id="navbar-default1"
             >
-              <ul className="flex flex-col p-4 mt-4  rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-">
+              <ul className="flex flex-col p-4 mt-4  rounded-lg  border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-">
                 <li className="cursor-pointer">FRA</li>
                 <li className="cursor-pointer">FER</li>
                 <li className="cursor-pointer">ENG</li>
@@ -85,7 +85,7 @@ function App() {
                 director located in united states, looking for working around
                 the globe
               </p>
-              <div className="bg-[#3E4356] text-white px-6 py-2 text-[12px] cursor-pointer lg:mt-16 mt-4 hover:bg-[#ff0000] hover:ease-linear hover:duration-100">
+              <div className="bg-[#424657] text-white px-6 py-2 text-[12px] cursor-pointer lg:mt-16 mt-4 hover:bg-[#2f313d] hover:ease-linear hover:duration-100">
                 <span className="">DOWNLOAD CV</span>
               </div>
               <span className="flex pt-5 ">
@@ -160,11 +160,11 @@ function App() {
               <img src="/sign.png" className="h-[50px]" alt="" />
             </div>
             <div className="flex mt-2">
-              <div className="bg-[#3E4356] text-white px-7 py-4 text-[12px] cursor-pointer w-fit hover:bg-[#ff0000] hover:ease-linear hover:duration-100">
+              <div className="bg-[#3E4356] text-white px-7 py-4 text-[12px] cursor-pointer w-fit hover:bg-[#2f313d] hover:ease-linear hover:duration-100">
                 <span className="">HIRE ME</span>
               </div>
               &nbsp;
-              <div className="bg-[#3E4356] text-white px-6 text-[12px] cursor-pointer w-fit hover:bg-[#ff0000] hover:ease-linear hover:duration-100">
+              <div className="bg-[#3E4356] text-white px-6 text-[12px] cursor-pointer w-fit hover:bg-[#2f313d] hover:ease-linear hover:duration-100">
                 <span>
                   <img src="/rightlong.png" alt="" />
                 </span>
@@ -326,23 +326,35 @@ function App() {
         </div>
         <div className="container mx-auto">
           <div className="grid-cols-3 p-10 md:p-20 space-y-2 lg:space-y-0 lg:grid lg:gap-3 lg:grid-rows-2">
-            <div className="w-full rounded">
+            <div className="w-full rounded relative img1">
               <img src="/laptop.jpg" className="h-[100%]" alt="" />
+              <div className="absolute h-full w-full bg-black opacity-[0.5] top-0 bottom-0 left-0 right-0 cursor-pointer hidden imgHover">
+              </div>
             </div>
-            <div className="w-full rounded">
-              <img src="/hardware.jpg" alt="" />
+            <div className="w-full rounded relative img1">
+              <img src="/hardware.jpg" alt="" className="h-full" />
+              <div className="absolute h-full w-full bg-black opacity-[0.5] top-0 bottom-0 left-0 right-0 cursor-pointer hidden imgHover">
+              </div>
             </div>
-            <div className="w-full  rounded">
-              <img src="/headphone.jpg" alt="" />
+            <div className="w-full  rounded relative img1">
+              <img src="/headphone.jpg" alt="" className="h-full" />
+              <div className="absolute h-full w-full bg-black opacity-[0.5] top-0 bottom-0 left-0 right-0 cursor-pointer hidden imgHover">
+              </div>
             </div>
-            <div className="w-full rounded">
-              <img src="/cup.jpg" alt="" />
+            <div className="w-full rounded relative img1">
+              <img src="/cup.jpg" alt="" className="h-full"/>
+              <div className="absolute h-full w-full bg-black opacity-[0.5] top-0 bottom-0 left-0 right-0 cursor-pointer hidden imgHover">
+              </div>
             </div>
-            <div className="w-full rounded">
-              <img src="/shoes.jpg" alt="" />
+            <div className="w-full rounded relative img1">
+              <img src="/shoes.jpg" alt="" className="h-full"/>
+              <div className="absolute h-full w-full bg-black opacity-[0.5] top-0 bottom-0 left-0 right-0 cursor-pointer hidden imgHover">
+              </div>
             </div>
-            <div className="w-full rounded">
-              <img src="/cam.jpg" alt="" />
+            <div className="w-full rounded relative img1">
+              <img src="/cam.jpg" alt="" className="h-full"/>
+              <div className="absolute h-full w-full bg-black opacity-[0.5] top-0 bottom-0 left-0 right-0 cursor-pointer hidden imgHover">
+              </div>
             </div>
           </div>
         </div>
@@ -712,7 +724,7 @@ function App() {
           Just say hello !
         </p>
         <div className="w-full flex items-center justify-center pb-12">
-          <div className="bg-[#3E4356] text-white px-7 py-4 text-[12px] cursor-pointer w-fit hover:animate-pulse hover:bg-[#ff0000]">
+          <div className="bg-[#3E4356] text-white px-7 py-4 text-[12px] cursor-pointer w-fit hover:animate-pulse hover:bg-[#2f313d]">
             <span className="">HIRE ME</span>
           </div>
         </div>
@@ -866,7 +878,7 @@ function App() {
               />
             </div>
             <div className="w-full flex items-center justify-end pb-12 pt-12 bg-white">
-              <div className="bg-[#3E4356] text-white px-7 py-4 text-[12px] cursor-pointer w-fit hover:bg-[#ff0000] hover:ease-linear hover:duration-100">
+              <div className="bg-[#3E4356] text-white px-7 py-4 text-[12px] cursor-pointer w-fit hover:bg-[#2f313d] hover:ease-linear hover:duration-100">
                 <span className="">HIRE ME</span>
               </div>
             </div>
