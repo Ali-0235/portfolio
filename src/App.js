@@ -368,7 +368,7 @@ function App() {
               &nbsp; Education
             </p>
             <div className="Card1 cursor-pointer my-2">
-              <p className="flex flex-col items-start py-6 px-4 w-[400px] bg-[#EDF1FD] text-[#737998] border border-gray-200 shadow-md  hover:scale-[1.1] ease-in duration-100">
+              <p className="flex flex-col items-start py-6 px-4 sm:w-[400px] w-[80%] mx-auto bg-[#EDF1FD] text-[#737998] border border-gray-200 shadow-md  hover:scale-[1.1] ease-in duration-100">
                 <p className="text-[10px]  text-start  text-black opacity-[0.5]">
                   March 2013 - Present
                 </p>
@@ -385,7 +385,7 @@ function App() {
               </p>
             </div>
             <div className="Card1 cursor-pointer my-2">
-              <p className="flex flex-col items-start py-6 px-4 w-[400px] bg-[#EDF1FD] text-[#737998] border border-gray-200 shadow-md  hover:scale-[1.1] ease-in duration-100">
+              <p className="flex flex-col items-start py-6 px-4 sm:w-[400px] w-[80%] mx-auto bg-[#EDF1FD] text-[#737998] border border-gray-200 shadow-md  hover:scale-[1.1] ease-in duration-100">
                 <p className="text-[10px]  text-start  text-black opacity-[0.5]">
                   March 2011 - 2014 December
                 </p>
@@ -402,7 +402,7 @@ function App() {
               </p>
             </div>
             <div className="Card1 cursor-pointer my-2">
-              <p className="flex flex-col items-start py-6 px-4 w-[400px] bg-[#EDF1FD] text-[#737998] border border-gray-200 shadow-md  hover:scale-[1.1] ease-in duration-100">
+              <p className="flex flex-col items-start py-6 px-4 sm:w-[400px] w-[80%] mx-auto bg-[#EDF1FD] text-[#737998] border border-gray-200 shadow-md  hover:scale-[1.1] ease-in duration-100">
                 <p className="text-[10px]  text-start  text-black opacity-[0.5]">
                   March 2008 - 2010 December
                 </p>
@@ -428,7 +428,7 @@ function App() {
               &nbsp; Experience
             </p>
             <div className="Card1 cursor-pointer my-2">
-              <p className="flex flex-col items-start py-6 px-4 w-[400px] bg-[#EDF1FD] text-[#737998] border border-gray-200 shadow-md  hover:scale-[1.1] ease-in duration-100">
+              <p className="flex flex-col items-start py-6 px-4 sm:w-[400px] w-[80%] mx-auto bg-[#EDF1FD] text-[#737998] border border-gray-200 shadow-md  hover:scale-[1.1] ease-in duration-100">
                 <p className="text-[10px]  text-start  text-black opacity-[0.5]">
                   March 2008 - 2010 December
                 </p>
@@ -445,7 +445,7 @@ function App() {
               </p>
             </div>
             <div className="Card1 cursor-pointer my-2">
-              <p className="flex flex-col items-start py-6 px-4 w-[400px] bg-[#EDF1FD] text-[#737998] border border-gray-200 shadow-md  hover:scale-[1.1] ease-in duration-100">
+              <p className="flex flex-col items-start py-6 px-4 sm:w-[400px] w-[80%] mx-auto bg-[#EDF1FD] text-[#737998] border border-gray-200 shadow-md  hover:scale-[1.1] ease-in duration-100">
                 <p className="text-[10px]  text-start  text-black opacity-[0.5]">
                   March 2013 - Present
                 </p>
@@ -462,7 +462,7 @@ function App() {
               </p>
             </div>
             <div className="Card1 cursor-pointer my-2">
-              <p className="flex flex-col items-start py-6 px-4 w-[400px] bg-[#EDF1FD] text-[#737998] border border-gray-200 shadow-md  hover:scale-[1.1] ease-in duration-100">
+              <p className="flex flex-col items-start py-6 px-4 sm:w-[400px] w-[80%] mx-auto bg-[#EDF1FD] text-[#737998] border border-gray-200 shadow-md  hover:scale-[1.1] ease-in duration-100">
                 <p className="text-[10px]  text-start  text-black opacity-[0.5]">
                   March 2011 - 2014 December
                 </p>
